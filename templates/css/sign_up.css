@@ -88,15 +88,6 @@ body {
 
 /* main menu of site  */
 
-.main_menu_bg {
-  position: relative;
-
-  height: 112px;
-  width: 100%;
-
-  background-color: #f8f8f8;
-
-}
 
 .main_menu {
   display: -webkit-flex;
@@ -106,7 +97,7 @@ body {
   align-items: center;
   justify-content: space-between;
 
-  max-width: 1780px;
+  max-width: 1300px;
   height: 100%;
 
   margin: 0 auto;
@@ -182,6 +173,7 @@ body {
 
 }
 
+
 .search_btn {
   position: absolute;
 
@@ -199,4 +191,143 @@ body {
 
   font-size: 13px;
   color: #989898;
+}
+
+/* end of main menu stiles */
+
+
+/* ============================================================== */
+/* bg and main title of site  */
+
+.main_menu_bg {
+  position: relative;
+
+  height: 112px;
+  width: 100%;
+
+  background-color: #f8f8f8;
+
+}
+
+.main_title {
+  color: #ffffff;
+
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+
+  position: absolute;
+
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main_title span {
+  font-weight: 400;
+}
+
+.main_title p {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+  margin-top: 50px;
+}
+
+/* end stiles of title and background  */
+/* ====================================================================== */
+
+
+/* registration and sign in for  */
+
+.Sign {
+  margin: 0 auto;
+  position: relative;
+
+  padding: 60px;
+}
+
+.sign_form {
+  margin: 0 auto;
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.sign_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #575153;
+  text-transform: uppercase;
+}
+
+.sign_form input {
+  width: 550px;
+  height: 40px;
+
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+
+  margin: 17.5px;
+  padding: 0 8px;
+}
+
+.sign_btn {
+  width: 149px;
+  height: 59px;
+
+  background-color: #fff;
+  border: 2px solid #737373;
+
+  color: #737373;
+
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  transition: all .2s;
+}
+
+.sign_btn:hover {
+  background-color: #00c8c8;
+  border-color: #00c8c8;
+  color: #f8f8f8;
+}
+
+/* end stiles of sign in form  */
+
+
+
+footer {
+  width: 100%;
+  height: 45px;
+
+  background-color: #333333;
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+
+  color: #999999;
+
 }

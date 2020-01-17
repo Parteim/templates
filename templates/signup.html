@@ -68,17 +68,40 @@
 
 <div class="main_bg">
 
+  <!-- {% block title_section %} -->
+
+  <h1 class="main_title">
+    Welcome <span> to Atom </span>
+    <p>Sign in or register</p>
+  </h1>
+
+  <!-- {% endblock %} -->
+
 </div>
 
 </header>
 
-<section class="sign_up">
+<section class="Sign">
 
+<form class="sign_form">
 
+  <h3 class="sign_title">Sign in</h3>
+
+  <label for="Email"><input placeholder="Email..." type="email" id="Email"></label>
+  <label for="Password"><input placeholder="Password..." type="password" id="Password"></label>
+  <label for="Repeat_password"><input placeholder="Password agane..." type="password" id="Repeat_password"></label>
+
+  <button type="submit" class="sign_btn">
+    Sign in
+  </button>
+
+</form>
 
 </section>
 
 <footer>
+
+  <p class="date">2019 - 2200</p>
 
 </footer>
 
