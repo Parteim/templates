@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="css/product_instance.css">
+
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="./js/main.js">
+
+  </script>
+</head>
+
+<body>
+
+<header>
+
+  <div class="top__line">
+
+    <div class="container">
+      <a href="#">Currency:GBP</a>
+
+      <ul class="top_menu">
+        <li class="item_top_menu"><a href="#">Register</a></li>
+        <li class="item_top_menu"><a href="#">Sign in</a></li>
+        <li class="item_top_menu cart">
+          <a href="#">
+            <i class="fas fa-shopping-cart"></i>
+            empty
+            <i class="fas fa-angle-down"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="main_menu_bg">
+
+    <div class="main_menu">
+
+      <h2 class="home_title">ATOM <span>SORE</span> </h2>
+
+      <menu class="main_menu_of_site">
+        <li class="menu_item"> <a href="#">menu</a> </li>
+        <li class="menu_item"> <a href="#">womens</a> </li>
+        <li class="menu_item"> <a href="#">the brand</a> </li>
+        <li class="menu_item"> <a href="#">local stores</a> </li>
+        <li class="menu_item search_item_of_menu">
+          <form>
+            <label class="search_container" for="search">
+
+              <input type="text" id="search" placeholder="Search...">
+              <button class="search_btn">
+                <i class="fas fa-search"></i>
+              </button>
+
+            </label>
+          </form>
+        </li>
+      </menu>
+
+    </div>
+
+  </div>
+
+  <div class="main_bg">
+
+    <!-- {% block title_section %} -->
+
+    <h1 class="main_title">
+      Priduct <span>view</span>
+    </h1>
+
+    <!-- {% endblock %} -->
+
+  </div>
+
+</header>
+
+<main>
+
+<section class="Product">
+
+  <div class="product_body">
+
+    <div class="product_slider">
+
+      <img src="img/products__img/phone.png" alt="phone" class="product_slider_image">
+      <button id="left_arrow" class="product_slider_btn"><i class="fas fa-arrow-alt-circle-left"></i></button>
+      <button id="right_arrow" class="product_slider_btn"><i class="fas fa-arrow-alt-circle-right"></i></button>
+
+    </div>
+
+    <div class="product_information">
+      <h2 class="product_title">Ave classic sweatshirt</h2>
+      <p class="price_of_product">£89.99</p>
+      <p class="product_code">Product Code: <span> #499577</span></p>
+      <p class="product_pescription">
+        Donec sem lorem laoreet tempor un risus vitae, rutrum
+        sodales nibh suspendisse est congue metus nunc, id viverra elit
+        loreti rhoncus quis consecteur es. Donec pulvinar
+        tempor lorem a pretium justo interdum.
+      </p>
+      <form class="add_to_cart_form">
+        <p>How manu</p>
+        <label class="label_of_counter" for="count_of_things">
+          <input type="text" value="1" id="count_of_things" type="number" min="1">
+          <button type="button" id="count_btn_up"><i class="fas fa-chevron-up"></i></button>
+          <button type="button" id="count_btn_down"><i class="fas fa-chevron-down"></i></button>
+        </label>
+        <button type="submit" class="add_to_cart_btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+      </form>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="Product_detail_information">
+
+  <div class="characters">
+
+    <p class="character_title">Characters</p>
+    <h2 class="product_title_of_description">Ave classic sweatshirt</h2>
+    <ul class="product_characters">
+      <li class="product_character_item">Lorem modi: <span>ipsum</span></li>
+      <li class="product_character_item">Lorem modi: <span>ipsum</span></li>
+      <li class="product_character_item">Lorem modi: <span>ipsum</span></li>
+      <li class="product_character_item">Lorem modi: <span>ipsum</span></li>
+      <li class="product_character_item">Lorem modi: <span>ipsum</span></li>
+    </ul>
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+
+  <form class="feedback_form">
+
+    <h3 class="feedback_title">
+      Feedback
+    </h3>
+
+    <label for="email_feedback_form">
+      <input type="text" id="email_feedback_form" placeholder="Email...">
+    </label>
+
+    <label for="text_feedback_form">
+      <input type="text" id="text_feedback_form" placeholder="Text...">
+    </label>
+
+    <button type="submit" class="btn_of_feedback_form">
+      send
+    </button>
+
+
+  </form>
+
+  <div class="bttom_line">
+
+    <p class="date">2019 - 2200</p>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
