@@ -1,11 +1,25 @@
 
-var count_btn_up = document.getElementById('count_btn_up');
-var counter_value = document.getElementById('count_of_things')
+function counterOfProduct() {
+  var countUpBtn = document.getElementById('count_btn_up');
+  var countDownBtn = document.getElementById('count_btn_down');
+  var countField = document.getElementById('count_of_things');
 
-count_btn_up.addEventListener('click', count_up);
+  countUpBtn.addEventListener('click', () => {
+    countField.value = parseInt(countField.value) + 1;
+  });
 
-function count_up () {
-  // var count_number = parseInt(counter_value.value) + 1;
-  counter_value;
-  console.log(counter_value);
+  countDownBtn.addEventListener('click', () => {
+    if(parseInt(countField.value) <= parseInt(countField.min)) {
+      countField.value = countField.min;
+      console.log("i'm hete")
+    }
+    else {
+      countField.value = parseInt(countField.value) - 1;
+    }
+    
+
+  });
+
 }
+
+counterOfProduct()

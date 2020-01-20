@@ -47,7 +47,7 @@
 .cart_product_img {
   position: relative;
 
-  max-width: 300px;
+  width: 300px;
   height: 90%;
 
   margin: 0 30px;
@@ -95,7 +95,7 @@
 }
 
 .cart_broduct_description_box {
-  max-width: 870px;
+  width: 870px;
 }
 
 .cart_count_of_product span {
