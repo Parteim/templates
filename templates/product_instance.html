@@ -116,11 +116,14 @@
         tempor lorem a pretium justo interdum.
       </p>
       <form class="add_to_cart_form">
-        <p>How manu</p>
+        <p>How many</p>
         <label class="label_of_counter" for="count_of_things">
+
           <input type="text" value="1" id="count_of_things" type="number" min="1">
+
           <button type="button" id="count_btn_up"><i class="fas fa-chevron-up"></i></button>
           <button type="button" id="count_btn_down"><i class="fas fa-chevron-down"></i></button>
+
         </label>
         <button type="submit" class="add_to_cart_btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
       </form>
@@ -182,5 +185,11 @@
 </footer>
 
 </body>
+
+<!-- {% block scripts %} -->
+<script src="js/product_instance.js">
+
+</script>
+<!-- {% endblock %} -->
 
 </html>
